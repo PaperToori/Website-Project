@@ -29,25 +29,43 @@ body {
   line-height: 14vh;
   text-align: end;
 }
+
+.firstintro {
+  display: flex;
+  flex-flow: row;
+  align-items: baseline;
+}
+
+.pfp {
+  margin: 0%;
+  margin-left: 10vh;
+  margin-top: 8vh;
+  width: 30%;
+}
+
+.page_introduction {
+  display: flex;
+  width: 40%;
+  margin-top: 5vh;
+  margin-left: 8vh;
+  margin-bottom: 15vh;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
+
 .footer_box {
   display: flex;
   align-items: center;
   justify-content: space-around;
   flex-flow: row;
 }
-.footer_info {
-}
-.footer_contacts {
-}
-.footer_rights {
-}
+
 .flexing {
   display: flex;
   width: 30%;
   height: 10vh;
-}
-
-p {
-  margin: 0%;
-  padding: 0%;
+  align-items: center;
 }
