@@ -102,3 +102,25 @@ p {
   height: 10vh;
   align-items: center;
 }
+
+h1 {
+  margin-top: 3%;
+  text-align: center;
+}
+.firstArti {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+  margin-bottom: 5vh;
+  width: 84%;
+  display: flex;
+  flex-flow: row;
+  align-content: flex-start;
+}
+img {
+  width: 300px;
+  margin-right: 1%;
+}
+hr {
+  width: 70%;
+}
