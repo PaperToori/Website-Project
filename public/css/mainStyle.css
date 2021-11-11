@@ -84,6 +84,9 @@ p {
   margin: 0%;
   padding: 0%;
 }
+b {
+  color: azure;
+}
 
 .footer_box {
   display: flex;
@@ -97,4 +100,21 @@ p {
   width: 30%;
   height: 10vh;
   align-items: center;
+}
+
+a.nav-li:link {
+  color: azure;
+  text-decoration: none;
+}
+a.nav-li:visited {
+  color: azure;
+  text-decoration: none;
+}
+a.nav-li:hover {
+  color: azure;
+  text-decoration: none;
+}
+a.nav-li:active {
+  color: azure;
+  text-decoration: none;
 }
