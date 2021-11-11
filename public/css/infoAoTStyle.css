@@ -107,6 +107,9 @@ h1 {
   margin-top: 3%;
   text-align: center;
 }
+.titles {
+  text-align: center;
+}
 .firstArti {
   margin-left: 8%;
   margin-right: 8%;
@@ -115,12 +118,25 @@ h1 {
   width: 84%;
   display: flex;
   flex-flow: row;
-  align-content: flex-start;
+  align-self: flex-start;
+}
+.Artis {
+  margin-left: 8%;
+  margin-right: 8%;
+  margin-top: 1%;
+  margin-bottom: 5vh;
+  width: 84%;
+  display: flex;
+  flex-flow: column;
+  align-self: flex-start;
 }
 img {
   width: 300px;
   margin-right: 1%;
 }
-hr {
+.line {
+  justify-self: center;
   width: 70%;
+  height: 10px;
+  color: rgb(139, 120, 109);
 }
