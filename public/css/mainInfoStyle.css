@@ -1,0 +1,61 @@
+header {
+  width: 100%;
+  height: 8vh;
+  margin: 0%;
+  padding: 0%;
+  color: white;
+  background-color: rgb(40, 146, 215);
+}
+
+footer {
+  width: 100%;
+  height: 10vh;
+  padding: 0%;
+  margin: 0%;
+  color: white;
+  background-color: rgb(35, 57, 91);
+}
+
+body {
+  margin: 0%;
+  padding: 0%;
+  color: rgb(139, 120, 109);
+}
+
+h2 {
+  text-align: center;
+}
+
+.line {
+  display: center;
+  width: 70%;
+  height: 5px;
+  background-color: rgb(139, 120, 109);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+img {
+  width: 250px;
+}
+
+.series_startlist {
+  justify-content: space-evenly;
+  display: flex;
+  flex-flow: wrap;
+  width: 90%;
+  margin-bottom: 7%;
+}
+.series_icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+p {
+  margin: 0%;
+  padding: 0%;
+}
